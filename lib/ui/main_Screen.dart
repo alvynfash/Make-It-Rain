@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:make_it_rain/ui/account_multiplier.dart';
 import 'package:make_it_rain/ui/bmi_home.dart';
 import 'package:make_it_rain/ui/buttomTab_home.dart';
+import 'package:make_it_rain/ui/embedded_icons_screen.dart';
 import 'package:make_it_rain/ui/tab_home.dart';
 import './userlist_screen.dart';
 import './userlist_with_futurebuilder_screen.dart';
@@ -20,6 +21,7 @@ class _MainScreeenState extends State<MainScreeen> {
     "Navigation with passThrough data",
     "Tabbed bar",
     "ButtomTabbed bar",
+    "Embbedded Icons list",
     "Other Screens"
   ];
 
@@ -83,6 +85,10 @@ class _MainScreeenState extends State<MainScreeen> {
 
       case 6:
         screen = new ButtomTabHome();
+        break;
+
+              case 7:
+        screen = new EmbeddedIconsScreen();
         break;
     }
 
