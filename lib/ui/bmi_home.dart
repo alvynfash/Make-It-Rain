@@ -9,7 +9,7 @@ class BmiScreen extends StatefulWidget {
 class _BmiScreenState extends State<BmiScreen> {
   @override
   Widget build(BuildContext context) {
-    var bloc = new Bloc();
+    
 
     var tc = new TextEditingController(text: "19");
     tc.addListener(() {
